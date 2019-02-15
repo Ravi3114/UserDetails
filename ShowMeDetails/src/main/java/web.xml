@@ -1,0 +1,18 @@
+<web-app>
+  <servlet>
+    <servlet-name>Enter</servlet-name>
+    <servlet-class>com.mycompany.controller.FrontController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Enter</servlet-name>
+    <url-pattern>/enter</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Details</servlet-name>
+    <servlet-class>com.mycompany.controller.Controller</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Details</servlet-name>
+    <url-pattern>/details</url-pattern>
+  </servlet-mapping>
+</web-app>
