@@ -1,0 +1,18 @@
+<web-app>
+  <servlet>
+    <servlet-name>MovieServletLogIn</servlet-name>
+    <servlet-class>LogInClass</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MovieServletLogIn</servlet-name>
+    <url-pattern>/LogIn</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>MovieServletSignUp</servlet-name>
+  <servlet-class>SignUpClass</servlet-class>
+  </servlet>
+    <servlet-mapping>
+      <servlet-name>MovieServletSignUp</servlet-name>
+      <url-pattern>/SignUp</url-pattern>
+    </servlet-mapping>
+</web-app>
